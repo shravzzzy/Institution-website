@@ -1,0 +1,71 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>University Website Design - Easy Tutorials</title>
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,600,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="https://www.edu-for.eu/wp-content/uploads/2021/04/logo_EDUFOR_February2021_versiunea2_500_500.png" width="100px" height="100px"></a>
+            <div class="nav-links" id="navLinks">  
+                <i class="fa fa-close" onclick="hideMenu()"></i>
+                
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+            <h1>Our Courses</h1>
+    </section>
+    
+    
+<!---------- course ----------->
+    
+    <section class="course">
+        <h1>Courses We Offer</h1>
+        <p>We have in total three courses to offer: .</p>
+        <div class="row">
+            <div class="course-col">
+                <h3>Intermediate</h3>
+                <p> Our dynamic approach to secondary education cultivates innovation, fosters growth, and prepares students for a future of limitless possibilities. Join us on the journey to success!</p>
+            </div>
+            <div class="course-col">
+                <h3>Degree</h3>
+                <p>"An enriching experience awaits at our institute, where we provide not just education but a pathway to a globally recognized degree. With cutting-edge facilities and dedicated faculty, we're shaping futures and empowering dreams."</p>
+            </div>
+            <div class="course-col">
+                <h3>Post Graduation</h3>
+                <p>From secondary strides to post-grad pride: Our institute fosters scholarly excellence. Transforming ambition into expertise, we pave pathways for tomorrow's innovators. Elevate your journey with us.</p>
+            </div>
+        </div>
+    </section>
+    
+<!---------- Facilities ---------->
+    
+    
+<!-------- footer ---------->
+
+<section class="footer">
+    
+        
+        
+        
+</section>    
+  
+  
+<!----JavaScript for toggle menu---->
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu() {
+        navLinks.style.right = "0";
+    }
+
+    function hideMenu() {
+        navLinks.style.right = "-200px";
+    }
+</script>  
+    
+</body>
+</html>    
